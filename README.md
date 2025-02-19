@@ -14,6 +14,8 @@ Math-Verify currently supports multiple antlr4 runtimes:
 
 To install Math-Verify with a specific antlr4 runtime, use the following command:
 ```bash
+# Math-Verify 要求 python 版本大于等于 3.10
+conda install python=3.10
 pip install math-verify[antlr4_13_2]
 ```
 
